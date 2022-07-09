@@ -6,10 +6,10 @@ void splitEvenOdd(){
 
   //This part specific Check The Number in List is EvenNumber or oddNumber
   for(final i in num){
-  if(i % 2 == 0)
-  evenList.add(i);
-  else
-  oddList.add(i);
+    if(i % 2 == 0)
+      evenList.add(i);
+    else
+      oddList.add(i);
   }
 
   //This part spacific print result
